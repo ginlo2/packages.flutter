@@ -27,7 +27,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  pigeon: ^4.2.14
+  pigeon:
+    git:
+      url: https://github.com/ginlo2/pigeon.git
+      path: packages/pigeon
+      ref: ginlo
 
 flutter:
   plugin:
